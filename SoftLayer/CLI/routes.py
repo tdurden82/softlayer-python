@@ -57,6 +57,13 @@ ALL_ROUTES = [
     ('dns:zone-list', 'SoftLayer.CLI.dns.zone_list:cli'),
     ('dns:zone-print', 'SoftLayer.CLI.dns.zone_print:cli'),
 
+    ('file', 'SoftLayer.CLI.file'),
+    ('file:volume-list', 'SoftLayer.CLI.file.list:cli'),
+    ('file:volume-detail', 'SoftLayer.CLI.file.detail:cli'),
+    ('file:volume-order', 'SoftLayer.CLI.file.order:cli'),
+    ('file:snapshot-list', 'SoftLayer.CLI.file.snapshot.list:cli'),
+    ('file:access-list', 'SoftLayer.CLI.file.access.list:cli'),
+
     ('firewall', 'SoftLayer.CLI.firewall'),
     ('firewall:add', 'SoftLayer.CLI.firewall.add:cli'),
     ('firewall:cancel', 'SoftLayer.CLI.firewall.cancel:cli'),
